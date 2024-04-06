@@ -71,7 +71,7 @@ const Home = () => {
             heading={
               <div className="text-4xl font-semibold">
                 Unlock your
-                <HighlightText text={" coding potential "} /> with our online
+                <HighlightText text={"coding potential"} /> with our online
                 courses.
               </div>
             }
@@ -94,6 +94,7 @@ const Home = () => {
           />
         </div>
 
+
         {/* Code Section 2 */}
         <div>
           <CodeBlocks
@@ -101,7 +102,7 @@ const Home = () => {
             heading={
               <div className="w-[100%] text-4xl font-semibold lg:w-[50%]">
                 Start
-                <HighlightText text={" coding in seconds "} />
+                <HighlightText text={"coding in seconds"} />
               </div>
             }
             subheading={
@@ -122,6 +123,7 @@ const Home = () => {
             backgroundGradient={<div className="codeblock2 absolute"></div>}
           />
         </div>
+
 
         
 
